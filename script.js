@@ -1,0 +1,1 @@
+document.getElementById('quoteForm').addEventListener('submit',function(e){e.preventDefault();const note=document.getElementById('formNote');note.textContent='Thanks — this demo form is working. Add Jason’s phone or email to connect real estimate requests.';note.style.fontWeight='700';});
